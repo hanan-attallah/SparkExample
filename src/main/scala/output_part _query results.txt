@@ -1,0 +1,45 @@
+
+Output Part:
+
+Build hive table/s that helps you the best to answer the following questions, we are expecting you to write down the queries that answers them: 
+
+1- Which top 3 countries that achieve the highest income through their players?
+
+sqlTopCountries: org.apache.spark.sql.DataFrame = [Nationality: string, total: double]
++-----------+-------+
+|Nationality|  total|
++-----------+-------+
+|      Spain|19015.0|
+|    England|19009.0|
+|     Brazil|15214.0|
++-----------+-------+
+
+
+2- List The club that includes the most valuable players,
+sqlTopClub: org.apache.spark.sql.DataFrame = [Club: string, total: double]
++--------------+-----+
+|          Club|total|
++--------------+-----+
+|Real Madrid CF|826.2|
++--------------+-----+
+
+The top 5 clubs that spends highest salaries :
++-----------------+--------+
+|             Club|Salaries|
++-----------------+--------+
+|     FC Barcelona|  4792.0|
+|   Real Madrid CF|  4751.0|
+|Manchester United|  3653.0|
+|          Chelsea|  3537.0|
+| FC Bayern Munich|  3273.0|
++-----------------+--------+
+
+3- Which of Europe or America - on continent level - has the best FIFA players?
+sqlTop5Club: org.apache.spark.sql.DataFrame = [Club: string, Salaries: double]
+
+sqlDF: org.apache.spark.sql.DataFrame = [continent: string, Score: double]
++-------------+-----------------+
+|    continent|            Score|
++-------------+-----------------+
+|South America|68.71780909673286|
++-------------+-----------------+

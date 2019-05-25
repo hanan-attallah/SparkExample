@@ -1,0 +1,4 @@
+root_brand,year,month,brand_id,job_id,source,event_datetime,job_referrer_id,social_media_channel,applications,hires,interviews,offers,onboards,passes,proceeds,righttoworks,views,keesing,talent_central,screening_stage_2,screening_stage_3,post_applications,post_proceeds,post_interviews,post_righttoworks,post_offers,post_onboards,post_hires,post_keesing,post_talent_central,post_screening_stage_2,post_screening_stage_3
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4,1,1,1,1,5,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4,4,1,1,1,1,5,1,1,77,1,1,1,7
